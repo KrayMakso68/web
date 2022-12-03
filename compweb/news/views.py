@@ -9,3 +9,10 @@ def news_index(request):
         'news' : news,
     }
     return render(request, 'news/news_home.html', data)
+
+def create(request):
+    data = {
+        'title' : 'Создание новости',
+
+    }
+    return render(request, 'news/create.html', data)

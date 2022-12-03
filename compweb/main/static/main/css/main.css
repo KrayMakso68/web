@@ -63,3 +63,8 @@ div.alert-primary{
     margin: 20px 34%;
     text-align: center;
 }
+form {
+    margin-left: 28%;
+    width: 500px;
+    margin-top: 50px;
+}
